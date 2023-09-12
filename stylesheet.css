@@ -1,12 +1,15 @@
 
 body{
+    background-color: rgb(38, 0, 56);
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
     color: white;
+    background-color: rgb(38, 0, 56);
+}
+.actual-body{
+    
     width: 1100px;
     margin: 0 auto;
-    background-color: rgb(38, 0, 56);
-    font-family: 'Poppins', sans-serif;
-    padding-bottom: 500px;
-    
 }
 .header-bar{
     display: flex;
@@ -140,10 +143,14 @@ a{
     height: auto;
     margin-right: -6px;
 }
-#footer{
-    background-color: grey;
-    height: 50px;
-    width: 120%;
-    margin-left: -50px;
+
+.footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
