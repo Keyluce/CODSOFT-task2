@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
         rel="stylesheet">
-
+    
 </head>
 
 <body>
@@ -122,15 +122,22 @@
             <p>If you've found my work interesting and would like to offer me an opportunity which aims to make a positive
                 impact then let's talk.
             </p>
-            <div class="contact-button">
-                <a href="mailto: lakshnarula25@gmail.com">Contact me!</a>
-            </div>
+            <button class="contact-button">
+                Contact me!
+            </button>
         </div>
     </div>
     
     <div class="footer">
         Crafted by Laksh Narula
     </div>
+
+
+
+    <script>
+        const button = document.querySelector(".contact-button");
+        button.addEventListener('click',() => window.location.href = "mailto: lakshnarula25@gmail.com");
+    </script>
 </body>
 
 </html>

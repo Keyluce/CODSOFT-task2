@@ -168,12 +168,11 @@ a{
     width: 150px;
     background-color: #ffffff;
     margin: 50px auto;
-    padding: 10px;
+    padding: 20px;
+    display: block;
+    margin: 20px auto 30px auto;
+    
 }
 
-.contact-button a{
-    color: black;
-    font-weight: bold;
-}
 
 
