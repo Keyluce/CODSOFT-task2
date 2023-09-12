@@ -1,10 +1,11 @@
 
 body{
     color: white;
-    max-width: 1100px;
+    width: 1100px;
     margin: 0 auto;
     background-color: rgb(38, 0, 56);
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 500px;
     
 }
 .header-bar{
@@ -37,7 +38,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     
     
     
@@ -95,5 +96,54 @@ a{
 
 .skill-card h2{
     margin-top: 20px;
+}
+
+.Projects > h1 {
+    margin-top: 140px;
+    font-size: 50px;
+    text-align: center;
+}
+.project-box{
+    display: flex;  
+    gap: 50px;
+    max-width: 600px;
+    text-align: justify;
+    align-items: center;
+    
+}
+.project-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.project-box > img{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.project-box#two > img
+{
+    width: 590px;
+    height: 200px;
+    margin-right: -6px;
+}
+.project-box#three > img
+{
+    max-width: 157px;
+    height: auto;
+    margin-right: -6px;
+}
+.project-box#four > img
+{
+    max-width: 157px;
+    height: auto;
+    margin-right: -6px;
+}
+#footer{
+    background-color: grey;
+    height: 50px;
+    width: 120%;
+    margin-left: -50px;
 }
 
