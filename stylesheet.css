@@ -112,12 +112,12 @@ a{
     max-width: 600px;
     text-align: justify;
     align-items: center;
-    
 }
 .project-container{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-bottom: 200px;
 }
 .project-box > img{
     width: 200px;
@@ -151,6 +151,29 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.contact h1{
+    text-align: center;
+}
+.contact p{
+    text-align: justify;
+    width: 600px;
+    margin: auto;
+}
+.contact-button{
+    border: 3px solid purple;
+    text-align: center;
+    border-radius: 12px;
+    width: 150px;
+    background-color: #ffffff;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.contact-button a{
+    color: black;
+    font-weight: bold;
 }
 
 
