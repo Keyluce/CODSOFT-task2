@@ -16,7 +16,7 @@
 <body id="about">
     <div class="actual-body">
         <div class="header-bar">
-            <h2 >Laksh Narula</h2>
+            <h2>Laksh Narula</h2>
             <ul>
                 <li> <a href="#about">About</a></li>
                 <li> <a href="#skills">Skills</a></li>
@@ -36,8 +36,8 @@
                     Looking to become a better version of myself each and every day.</p>
             </div>
             <div class="right">
-                <img class="avatar" src="resources/avatar.png" alt="my-avatar" >
-            </div >
+                <img class="avatar" src="resources/avatar.png" alt="my-avatar">
+            </div>
 
         </div>
         <hr style="height: 5px; background-color: white; border-radius: 10px;" id="skills">
@@ -70,71 +70,70 @@
             </div>
         </div>
     </div>
-        <div class="Projects" id="projects">
-            <h1>Projects</h1>
-            <div class="project-container">
-                <div class="project-box" id="one">
-                    <img src="resources/etch-a-sketch.png" alt="etch a sketch image">
-                    <div>
-                        <h2>Etch a Sketch</h4>
-                            <p>
-                                It's a 16x16 grid initially where if you hover over any of the boxes, it fills it with a
-                                random color. A
-                                button is present
-                                to change the grid size to anything less than a hundred.
-                            </p>
-                    </div>
-                    
-                </div>
-                <div class="project-box" id="two">
-                    <img src="resources/calculator.png" alt="calculator">
-                    <div>
-                        <h2>Calculator</h4>
-                            <p>
-                                A colorful feature-rich calculator that calculates output on the run and
-                                has decimal functionality, negative toggle, backspace, ability to clear the screen and
-                                supports 4 basic operations.
-                            </p>
-                    </div>
-                </div>
-                <div class="project-box" id="three">
-                    <img src="resources/portfolio.png" alt="portfolio">
-                    <div>
-                        <h2>Portfolio Site</h4>
-                            <p>
-                                Yep! It's my portfolio website which you are on at the moment.
-                            </p>
-                    </div>
-                </div>
-                <div class="project-box" id="four">
-                    <img src="resources/rps.png" alt="rock-paper-scissors">
-                    <div>
-                        <h2>Rock Paper Scissors</h4>
-                            <p>
-                                A very basic but playable Rock Paper Scissors game. Just involves three buttons for you
-                                to
-                                select your move. Quite bland as of now and doesn't contain any style to it.
-                            </p>
-                    </div>
+    <div class="Projects" id="projects">
+        <h1>Projects</h1>
+        <div class="project-container">
+            <div class="project-box" id="one">
+                <img src="resources/etch-a-sketch.png" alt="etch a sketch image">
+                <div>
+                    <h2>Etch a Sketch</h4>
+                        <p>
+                            It's a 16x16 grid initially where if you hover over any of the boxes, it fills it with a
+                            random color. A
+                            button is present
+                            to change the grid size to anything less than a hundred.
+                        </p>
                 </div>
 
             </div>
+            <div class="project-box" id="two">
+                <img src="resources/calculator.png" alt="calculator">
+                <div>
+                    <h2>Calculator</h4>
+                        <p>
+                            A colorful feature-rich calculator that calculates output on the run and
+                            has decimal functionality, negative toggle, backspace, ability to clear the screen and
+                            supports 4 basic operations.
+                        </p>
+                </div>
+            </div>
+            <div class="project-box" id="three">
+                <img src="resources/portfolio.png" alt="portfolio">
+                <div>
+                    <h2>Portfolio Site</h4>
+                        <p>
+                            Yep! It's my portfolio website which you are on at the moment.
+                        </p>
+                </div>
+            </div>
+            <div class="project-box" id="four">
+                <img src="resources/banana-page.png" alt="banana-page">
+                <div>
+                    <h2>Landing Page</h4>
+                        <p>
+                            It's a banana themed landing page.
+
+                        </p>
+                </div>
+            </div>
+
         </div>
-        <div class="contact" id="contact">
-            <h1>Let's work together!</h1>
-            <p>If you've found my work interesting and would like to offer me an opportunity which aims to make a
-                positive
-                impact then let's talk.
-            </p>
-        
+    </div>
+    <div class="contact" id="contact">
+        <h1>Let's work together!</h1>
+        <p>If you've found my work interesting and would like to offer me an opportunity which aims to make a
+            positive
+            impact then let's talk.
+        </p>
+
         <div>
             <button class="contact-button">
                 Contact me
             </button>
             <a download href="resources/Resume-Laksh-Narula.pdf" class="resume-link">Download Resume</a>
         </div>
-        </div>
-    
+    </div>
+
 
     <div class="footer">
         Crafted by Laksh Narula
@@ -149,33 +148,29 @@
         projectBox.forEach(box => box.addEventListener('mouseenter', addHoverEffect));
         projectBox.forEach(box => box.addEventListener('mouseleave', removeHoverEffect));
         projectBox.forEach(box => box.addEventListener('click', click));
-        function addHoverEffect()
-        {
+        function addHoverEffect() {
             this.classList.add("hover");
         }
-        function removeHoverEffect()
-        {
+        function removeHoverEffect() {
             this.classList.remove("hover");
         }
-        function click()
-        {   
+        function click() {
             console.log(this.id);
-            switch (this.id)
-            {
+            switch (this.id) {
                 case 'one':
                     window.location.href = "https://keyluce.github.io/etch-a-sketch/"
                     break;
                 case 'two':
-                window.location.href = "https://keyluce.github.io/calculator/"
+                    window.location.href = "https://keyluce.github.io/calculator/"
                     break;
                 case 'three':
                     window.location.href = "https://keyluce.github.io/CODSOFT-task2/"
                     break;
                 case 'four':
-                    window.location.href = "https://keyluce.github.io/rock-paper-scissors/"
+                    window.location.href = "https://keyluce.github.io/CODSOFT-task1/"
                     break;
             }
-            
+
         }
     </script>
 </body>
