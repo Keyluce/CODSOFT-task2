@@ -113,15 +113,21 @@ a{
 .project-box{
     display: flex;  
     gap: 50px;
-    max-width: 600px;
+    width: 600px;
     text-align: justify;
     align-items: center;
 }
+
 .project-container{
     display: flex;
     flex-direction: column;
     gap: 50px;
     margin-bottom: 200px;
+    align-items: center;
+    
+    
+    
+    
 }
 .project-box > img{
     width: 200px;
@@ -147,6 +153,8 @@ a{
     height: auto;
     margin-right: -6px;
 }
+
+
 
 .footer{
     background-color: black;
@@ -199,4 +207,14 @@ a{
     margin-bottom: 45px;
 }
 
+
+.hover{
+    transition: all 0.7s ease;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 
